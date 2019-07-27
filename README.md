@@ -75,7 +75,7 @@ To achive the desired dropout at the input layer, the first parameter is used.
 
 ## 3. Pre padding sequences actually didn't help as it gives too many unwanted white spaces in its outout
 
-## 4. When using smaller sequences, say 20 instead of 100 (as done in the second case), the output text predected in that proper both semantically and grammatically
+## 4. When using smaller sequences, say 20 instead of 100 (as done in the second case), the output text predected in that case is not proper both semantically and grammatically
 
 
 
