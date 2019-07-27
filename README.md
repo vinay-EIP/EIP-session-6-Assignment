@@ -69,9 +69,14 @@ To achive the desired dropout at the input layer, the first parameter is used.
 
 # Conclutions:
 
-1. When the punctuation like " ' " and " " " and still retained in the data, the model was able to predict direct speech sentences as well. SO work can be done on this as well
+## 1. When the punctuation like " ' " and " " " and still retained in the data, the model was able to predict direct speech sentences as well. SO work can be done on this as well
 
-2. Character level text generation will require larger network and more epochs to learn well. So the idea of iteration through the sentence was helpful and verified
+## 2. Character level text generation will require larger network and more epochs to learn well. So the idea of iteration through the sentence was helpful and verified
+
+## 3. Pre padding sequences actually didn't help as it gives too many unwanted white spaces in its outout
+
+## 4. When using smaller sequences, say 20 instead of 100 (as done in the second case), the output text predected in that proper both semantically and grammatically
+
 
 
 
